@@ -1,0 +1,793 @@
+
+/* 轮播图 */
+.banner{
+    width:1263px;
+    height:442px;
+    overflow: hidden;
+    margin:0 auto;
+    position:relative;
+}
+.banner_img{
+    width:1263px;  
+    height:442px;
+}
+
+.banner_img  img{
+    width:1263px;
+    height:442px;  
+    position: absolute;
+    top:0;
+    left:1263px;   
+}
+.banner_img img:nth-child(1){
+    left:0;
+}
+.banner .btns input{
+    z-index: 1;
+    width:100px;
+    height:100px;
+    background:rgba(255,251,240,0.2);
+    position: absolute;
+    top:125px;
+    text-align:center;
+    border:0;
+}
+.banner .btns .left{
+    left:0;
+}
+.banner .btns .right{
+    right:0;
+}
+
+
+/* 标题 */
+.title{
+    width:100%;
+    height:100px;
+}
+.title .title_left{
+    font-size: 40px;
+    line-height: 100px;
+    float:left;
+    text-align:center;
+    width:50%;
+}
+.title .title_right{
+    font-size: 40px;
+    line-height: 100px;
+    float:right;
+    text-align: center;
+    width:50%;
+}
+.picture{
+    width:1200px;
+    height:268px;  
+    margin:0 auto;
+}
+.picture a{
+    width:550px;
+    height:260px;
+    display:inline-block;
+}
+.picture a img{
+    width:550px;
+    height:260px;
+}
+.picture a img:nth-child(1){
+    margin-left:40px;
+}
+.title_style{
+    width:100%;
+    height:100px;
+}
+.title_style_s{
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+}
+.picture_hot{
+    width:1200px;
+    margin:0 auto;
+    height:550px;
+    padding-bottom: 30px;
+}
+.picture_hot a{}
+.picture_hot a img{
+    width:390px;
+    height:260px;
+    margin:2px;
+}
+
+
+
+
+/* 名人运动专栏 */
+.sports{
+    width:100%;
+    height:214px;
+    background:#ccc;
+}
+.sports ul li{
+    width:144px;
+    height:158px;
+    float:left;
+    margin:5px 50px;
+}
+.sports ul li a{}
+.sports ul li a img{
+    width:140px;
+    height:156px;
+    display:block;
+}
+.sports ul li a img:hover{
+    width:144px;
+    height:158px;
+}
+.sports ul li a span{
+    display:block;
+    font-size: 24px;
+    line-height: 30px;
+    text-align:center;
+    margin-top:5px;
+    color:#000;
+}
+
+
+
+.mask{
+  width:1263px;
+  height:100px;
+  text-align:center;
+  position:relative;
+}
+.mask .masks{
+    width:1230px;
+    height:100px;
+    position:relative;
+    overflow: hidden;
+}
+
+.mask .masks .mask_m{
+    width:1230px;
+    height:100px;
+    position: absolute;
+    top:0;
+    left:1230px;
+ }
+ .mask .masks .mask_m:nth-child(1){
+     display:block;
+     left:0;
+ }
+.mask .masks .mask_m img{
+    width:50px;
+    height:50px;
+    margin:20px 30px;
+}
+
+.mask .masks .mask_m img:hover{
+  background:#ccc;
+
+}
+
+.mask .mask_btns input{
+    z-index: 1;
+    width:100px;
+    height:100px;
+    background:rgba(255,251,240,0.2);
+    position: absolute;
+    top:0;
+    text-align:center;
+    border:0;
+}
+.mask .mask_btns .left{
+    left:0
+}
+.mask .mask_btns .right{
+    right:0;
+}
+
+
+
+/* 热卖专栏 */
+.hot{
+    width:100%;
+    height:700px;
+    background:#ccc;
+    position: relative;
+}
+.hot .hot_title{
+    width:100%;
+    height:33px;
+    font-size: 32px;
+    line-height: 33px;
+    text-align: center;
+    color:#747474;
+    padding-top:40px;
+}
+.hot ul{
+    margin-top:26px;
+    margin-left:30px;
+    position: absolute;
+    top:80px;
+    left:0;
+}
+.hot ul li{
+    color:#fff;
+    background:#747474;
+    width:30px;
+    height:60px;
+    margin:5px 0;
+    text-align: center;
+    font-size: 12px;
+   padding-top:10px;
+  
+}
+.hot ul li.active{
+    background:red;
+}
+.hot .hot_picture{
+ width:1200px;
+ height:520px;   
+ position: absolute;
+ top:111px;
+ left:60px;
+
+}
+
+.hot .hot_picture a {
+    width:230px;
+    height:260px;  
+    border:1px solid #ccc;
+    background:#fff;
+    text-align: center;
+    display:inline-block;
+}
+
+.hot .hot_picture a img{
+    width:180px;
+    height:180px;
+    display:block;
+   
+}
+
+.hot .hot_picture a img:hover{
+    width:230px;
+    height:180px;
+}
+
+.hot .hot_picture a .des{
+    font-weight:700;
+    color:#000;
+    font-size: 12px;
+    line-height:16px;
+}
+
+.hot .hot_picture a span{
+    display:inline-block;
+    color:red;
+    font:18px/32px "";
+    font-weight: 900;
+    margin-top:4px;
+}
+
+
+
+
+/* 黑色专栏 */
+.black{
+    width:100%;
+    height:104px;
+    background:#000;
+ 
+}
+.black ul{
+    width:890px;
+    height:104px;
+    margin:0 auto;
+}
+.black ul li{
+    width:178px;
+    height:104px;
+    float:left;
+}
+.black ul li.active{
+    background:red;
+}
+
+.black ul li a{
+    width:178px;
+    height:104px;
+}
+.black ul li a img{
+    margin:0 auto;
+    display:block;
+    
+}
+.black ul li a span{
+    display:block;
+    font-size: 14px;
+    text-align:center;
+    line-height: 30px;
+}
+
+
+
+
+/* 跑步专栏 */
+.run{
+    width:100%;
+    height:700px;
+    background:#ccc;
+    position:relative;
+}
+.run .run_picture{
+    width:100%;
+}
+.run .run_picture a img{
+    width:100%;
+}
+.run ul{
+    margin-top:85px;
+    margin-left:30px;
+    position: absolute;
+    top:80px;
+    left:0;
+}
+.run ul li{
+    color:#fff;
+    background:#747474;
+    width:30px;
+    height:60px;
+    margin:5px 0;
+    text-align: center;
+    font-size: 12px;
+    padding-top:10px;
+}
+.run ul li.active{
+    background:red;
+}
+    
+.run .run_img{
+    width:1200px;
+    height:360px;
+    position: absolute;
+    top:170px;
+    left:60px;
+    display:none;
+}
+.run .run_img.active{
+    display:block;
+}
+.run .run_img a{
+    width:230px;
+    height:260px;
+    float:left; 
+    text-align: center;
+    background:#fff;
+    border:1px solid #ccc; 
+}
+
+.run .run_img a img{
+    width:180px;;
+    height:180px;;
+  
+}
+.run .run_img a .des{
+    font-weight:700;
+    color:#000;
+    font-size: 12px;
+    line-height:16px;
+}
+.run .run_img a span{
+    display:inline-block;
+    color:red;
+    font:18px/32px "";
+    font-weight: 900;
+    margin-top:4px;
+}
+.run .run_img a:hover img{
+    width:230px;
+}
+.run .run_img .special a{
+    /* display:inline-block; */
+    width:460px;
+    height:260px;
+}
+.run .run_img .special a img{
+    width:460px;
+    height:260px;
+    padding:0;
+}
+
+
+
+/* 韦德样式 */
+.wei{
+    width:100%;
+    height:700px;
+    background:#ccc;
+    position:relative;
+}
+.wei .wei_picture{
+    width:100%;
+}
+.wei .wei_picture a img{
+    width:100%;
+}
+.wei ul{
+    margin-top:85px;
+    margin-left:30px;
+    position: absolute;
+    top:80px;
+    left:0;
+}
+.wei ul li{
+    color:#fff;
+    background:#747474;
+    width:30px;
+    height:60px;
+    margin:5px 0;
+    text-align: center;
+    font-size: 12px;
+    padding-top:10px;
+}
+.wei ul li.active{
+    background:red;
+}
+    
+.wei .wei_img{
+    width:1200px;
+    height:360px;
+    position: absolute;
+    top:170px;
+    left:60px;
+    display:none;
+}
+.wei .wei_img.active{
+    display:block;
+}
+.wei .wei_img a{
+    width:230px;
+    height:260px;
+    float:left; 
+    text-align: center;
+    background:#fff;
+    border:1px solid #ccc; 
+}
+
+.wei .wei_img a img{
+    width:180px;;
+    height:180px;;
+  
+}
+.wei .wei_img a .des{
+    font-weight:700;
+    color:#000;
+    font-size: 12px;
+    line-height:16px;
+}
+.wei .wei_img a span{
+    display:inline-block;
+    color:red;
+    font:18px/32px "";
+    font-weight: 900;
+    margin-top:4px;
+}
+.wei .wei_img a:hover img{
+    width:230px;
+}
+.wei .wei_img .special a{
+    /* display:inline-block; */
+    width:460px;
+    height:260px;
+}
+.wei .wei_img .special a img{
+    width:460px;
+    height:260px;
+    padding:0;
+   
+}
+.wei .basketball{
+    width:100%;
+}
+.wei .basketball img{
+    width:100%;
+}
+.wei .fashion{
+    width:100%;
+}
+
+
+
+
+
+
+/* 时尚 专栏*/
+.fas{
+    width:100%;
+    height:700px;
+    background:#ccc;
+    position:relative;
+}
+.fas .fas_picture{
+    width:100%;
+}
+.fas .fas_picture a img{
+    width:100%;
+}
+.fas ul{
+    margin-top:85px;
+    margin-left:30px;
+    position: absolute;
+    top:80px;
+    left:0;
+}
+.fas ul li{
+    color:#fff;
+    background:#747474;
+    width:30px;
+    height:60px;
+    margin:5px 0;
+    text-align: center;
+    font-size: 12px;
+    padding-top:10px;
+}
+.fas ul li.active{
+    background:red;
+}
+    
+.fas .fas_img{
+    width:1200px;
+    height:360px;
+    position: absolute;
+    top:170px;
+    left:60px;
+    display:none;
+}
+.fas .fas_img.active{
+    display:block;
+}
+.fas .fas_img a{
+    width:230px;
+    height:260px;
+    float:left; 
+    text-align: center;
+    background:#fff;
+    border:1px solid #ccc; 
+}
+
+.fas .fas_img a img{
+    width:180px;;
+    height:180px;;
+  
+}
+.fas .fas_img a .des{
+    font-weight:700;
+    color:#000;
+    font-size: 12px;
+    line-height:16px;
+}
+.fas .fas_img a span{
+    display:inline-block;
+    color:red;
+    font:18px/32px "";
+    font-weight: 900;
+    margin-top:4px;
+}
+.fas .fas_img a:hover img{
+    width:230px;
+}
+.fas .fas_img .special a{
+    /* display:inline-block; */
+    width:460px;
+    height:260px;
+}
+.fas .fas_img .special a img{
+    width:460px;
+    height:260px;
+    padding:0; 
+}
+.fas .fashion img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+/* 训练专栏 */
+.tra{
+    width:100%;
+    height:700px;
+    background:#ccc;
+    position:relative;
+}
+.tra .tra_picture{
+    width:100%;
+}
+.tra .tra_picture a img{
+    width:100%;
+}
+.tra ul{
+    margin-top:85px;
+    margin-left:30px;
+    position: absolute;
+    top:80px;
+    left:0;
+}
+.tra ul li{
+    color:#fff;
+    background:#747474;
+    width:30px;
+    height:60px;
+    margin:5px 0;
+    text-align: center;
+    font-size: 12px;
+    padding-top:10px;
+}
+.tra ul li.active{
+    background:red;
+}
+    
+.tra .tra_img{
+    width:1200px;
+    height:360px;
+    position: absolute;
+    top:170px;
+    left:60px;
+    display:none;
+}
+.tra .tra_img.active{
+    display:block;
+}
+.tra .tra_img a{
+    width:230px;
+    height:260px;
+    float:left; 
+    text-align: center;
+    background:#fff;
+    border:1px solid #ccc; 
+}
+
+.tra .tra_img a img{
+    width:180px;;
+    height:180px;;
+  
+}
+.tra .tra_img a .des{
+    font-weight:700;
+    color:#000;
+    font-size: 12px;
+    line-height:16px;
+}
+.tra .tra_img a span{
+    display:inline-block;
+    color:red;
+    font:18px/32px "";
+    font-weight: 900;
+    margin-top:4px;
+}
+.tra .tra_img a:hover img{
+    width:230px;
+}
+.tra .tra_img .special a{
+    /* display:inline-block; */
+    width:460px;
+    height:260px;
+}
+.tra .tra_img .special a img{
+    width:460px;
+    height:260px;
+    padding:0; 
+}
+
+.tra .train{
+    width:100%;
+}
+.tra .train img{
+    width:1263px;
+}
+
+
+
+
+
+/* 乒乓球 */
+.pin{
+    width:100%;
+    height:700px;
+    background:#ccc;
+    position:relative;
+}
+.pin .pin_picture{
+    width:100%;
+}
+.pin .pin_picture a img{
+    width:100%;
+}
+.pin ul{
+    margin-top:85px;
+    margin-left:30px;
+    position: absolute;
+    top:80px;
+    left:0;
+}
+.pin ul li{
+    color:#fff;
+    background:#747474;
+    width:30px;
+    height:60px;
+    margin:5px 0;
+    text-align: center;
+    font-size: 12px;
+    padding-top:10px;
+}
+.pin ul li.active{
+    background:red;
+}
+    
+.pin .pin_img{
+    width:1200px;
+    height:360px;
+    position: absolute;
+    top:170px;
+    left:60px;
+    display:none;
+}
+.pin .pin_img.active{
+    display:block;
+}
+.pin .pin_img a{
+    width:230px;
+    height:260px;
+    float:left; 
+    text-align: center;
+    background:#fff;
+    border:1px solid #ccc; 
+}
+
+.pin .pin_img a img{
+    width:180px;;
+    height:180px;;
+  
+}
+.pin .pin_img a .des{
+    font-weight:700;
+    color:#000;
+    font-size: 12px;
+    line-height:16px;
+}
+.pin .pin_img a span{
+    display:inline-block;
+    color:red;
+    font:18px/32px "";
+    font-weight: 900;
+    margin-top:4px;
+}
+.pin .pin_img a:hover img{
+    width:230px;
+}
+.pin .pin_img .special a{
+    /* display:inline-block; */
+    width:460px;
+    height:260px;
+}
+.pin .pin_img .special a img{
+    width:460px;
+    height:260px;
+    padding:0; 
+}
+.pingpang{
+    width:100%;
+}
+.pingpang img{
+    width:100%;
+}
+
+
+
+

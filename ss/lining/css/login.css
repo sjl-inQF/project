@@ -1,0 +1,131 @@
+.re_vip{
+    width:800px;
+    height:800px;
+    margin:0 auto;
+    background:#fff;
+}
+.re_vip h3{
+    width:100%;
+    height:60px;
+    font:24px/60px "";
+    color:#000;
+    text-align:center;
+}
+.re_vip  .root{
+    width:400px;
+    height:40px;
+    background:#000;
+    color:#fff;
+    font:24px/40px "";
+    float:left;
+    text-align:center;
+    margin:20px 0;
+}
+.re_vip  .phone{
+    width:400px;
+    height:40px;
+    background:#000;
+    color:#fff;
+    font:24px/40px "";
+    float:left;
+    text-align:center;
+    margin:20px 0;
+}
+.re_vip  .root.active{
+    background:red;
+    display:block;
+}
+.re_vip .box2{
+    display:none;
+}
+.re_vip  input{
+    width:260px;
+    height:30px;
+    margin:30px 268px;
+    display:block;
+  
+}
+
+.re_vip p{
+    width:260px;
+    height:60px;
+    border:1px solid #000;
+    margin:0 auto;
+    background:#ccc;
+    display:none;
+}
+.re_vip .word{
+    width:260px;
+    height:30px;
+    margin:10px auto;
+}
+.re_vip  .find{
+width:100px;
+height:30px;
+font:16px/30px "";
+
+}
+.re_vip  .news{
+    width:100px;
+    height:30px;
+    font:16px/30px "";
+    margin-left:80px;
+}
+.re_vip .deng{
+    width:260px;
+    height:30px;
+    font:24px/30px "";
+    background:red;
+    color:#fff;
+    border:0;
+    text-align:center;
+    margin:30px auto;
+}
+.re_vip .wei {
+    width:260px;
+    height:40px;
+    margin:10px auto;
+    text-align:center;
+}
+.re_vip .wei a{
+    font:20px/40px "";
+    font-weight:800;
+    color:red;
+}
+.re_vip  .other{
+    width:300px;
+    height:40px;
+    margin:30px auto; 
+}
+.re_vip  .other span{
+    width:260px;
+    height:30px;
+    color:#747474;
+    font:20px/30px "";
+    display:block;
+    text-align: center;
+ 
+}
+.re_vip  .other i{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    border:1px solid #ccc;
+    border-radius:25px;
+    margin:20px 20px;
+    background:url("https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png") no-repeat;
+}
+.re_vip  .other i:hover{
+    border:2px solid red; 
+}
+.re_vip  .other .i2{
+    background-position: -52px 0px;
+}
+.re_vip  .other .i2:hover{
+    background-position: -52px 0px;
+}
+.re_vip  .other .i3{
+    background-position: -106px 0px;
+}
+
+

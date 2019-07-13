@@ -1,0 +1,135 @@
+.content {
+  width: 100%;
+  height: 1500px; }
+  .content .tab_left {
+    width: 210px;
+    float: left; }
+    .content .tab_left span {
+      display: inline-block;
+      width: 210px;
+      height: 40px;
+      background: red;
+      color: #fff;
+      text-align: center;
+      font: 14px/32px ""; }
+    .content .tab_left .tab_title {
+      width: 210px;
+      height: 40px;
+      background: #000;
+      color: #fff;
+      text-align: center;
+      font: 14px/32px ""; }
+    .content .tab_left ul {
+      width: 210px;
+      height: 168px;
+      background: #ccc; }
+      .content .tab_left ul li {
+        font: 12px/24px "";
+        margin: 4px;
+        color: #000; }
+      .content .tab_left ul li:hover {
+        color: red; }
+  .content .tab_right {
+    width: 1000px;
+    height: 500px;
+    float: left;
+    margin-left: 4px; }
+    .content .tab_right .tab_top {
+      width: 100%;
+      height: 30px; }
+      .content .tab_right .tab_top span {
+        display: block;
+        font: 12px/30px "";
+        color: #000;
+        font-weight: 900;
+        margin-left: 4px; }
+    .content .tab_right .tab {
+      width: 1000px; }
+      .content .tab_right .tab .top {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #747474; }
+        .content .tab_right .tab .top h3 {
+          width: 100px;
+          height: 40px;
+          font: 14px/40px "";
+          color: #000;
+          text-align: center;
+          display: inline-block;
+          background: #ccc; }
+        .content .tab_right .tab .top span {
+          width: 100px;
+          height: 40px;
+          font: 14px/40px "";
+          color: #000;
+          text-align: center;
+          display: inline-block; }
+        .content .tab_right .tab .top span:hover {
+          color: red; }
+    .content .tab_right .tab_title {
+      width: 1000px;
+      height: 50px;
+      background: #ddddff;
+      margin-top: 10px; }
+      .content .tab_right .tab_title span {
+        display: inline-block;
+        font: 14px/50px "";
+        color: #000;
+        font-weight: 800;
+        width: 60px;
+        height: 32px;
+        text-align: center; }
+      .content .tab_right .tab_title input {
+        width: 40px;
+        height: 22px; }
+      .content .tab_right .tab_title .btn {
+        width: 40px;
+        height: 30px;
+        color: #fff;
+        background: red;
+        border: none;
+        font: 12px/30px "";
+        line-height: 30px;
+        text-align: center;
+        margin-left: 4px; }
+    .content .tab_right .tab_list {
+      width: 1100px; }
+      .content .tab_right .tab_list .list_msg {
+        width: 190px;
+        height: 300px;
+        border: 3px solid #000;
+        text-align: center;
+        display: inline-block; }
+        .content .tab_right .tab_list .list_msg img {
+          width: 180px;
+          height: 180px; }
+        .content .tab_right .tab_list .list_msg .list_img {
+          width: 200px;
+          height: 50px;
+          text-align: center; }
+          .content .tab_right .tab_list .list_msg .list_img img {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            border: 1px solid #000; }
+        .content .tab_right .tab_list .list_msg p {
+          width: 200px;
+          height: 30px;
+          text-align: center;
+          color: #000;
+          font: 13px/30px "";
+          line-height: 30px;
+          font-weight: 900;
+          margin-top: 10px; }
+        .content .tab_right .tab_list .list_msg span {
+          width: 200px;
+          height: 30px;
+          text-align: center;
+          color: #000;
+          font: 16px/30px "";
+          line-height: 30px;
+          font-weight: 900;
+          color: red; }
+      .content .tab_right .tab_list list_msg:hover {
+        background: #ccc; }

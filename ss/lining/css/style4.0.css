@@ -1,0 +1,54 @@
+ h2{
+    color:#747474;
+    font:32px/60px "";
+    width:160px;
+    height:60px;
+    text-align: center; 
+   background:orange;
+   border-radius:30px;
+}
+.right{
+    position: absolute;
+    top:239px;
+    right:0;
+    background:red;
+}
+table{
+    border:1px solid #ccc;
+    width:900px;
+    height:40px;
+    text-align:center;
+    font:24px/40px "";
+    margin:0 auto;
+} 
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.delete{
+    width: 40px;
+    background: #ccf;
+    text-align: center;
+}
+.changeNum{
+    width:40px;
+    height:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

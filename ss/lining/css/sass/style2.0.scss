@@ -1,0 +1,170 @@
+.content{
+    width:100%;
+    height:1500px;
+    .tab_left{
+        width:210px;
+        float:left;
+        span{
+            display:inline-block;
+            width:210px;
+            height:40px;
+            background:red;
+            color:#fff;
+            text-align:center;
+            font:14px/32px "";
+        }
+        .tab_title{
+            width:210px;
+            height:40px;
+            background:#000;
+            color:#fff;
+            text-align:center;
+            font:14px/32px "";
+        }
+        ul{
+            width:210px;
+            height:168px;
+            background:#ccc;
+            li{
+                font:12px/24px "";
+                margin:4px;
+                color:#000;
+            }   
+            li:hover{
+                color:red;
+            }
+        }   
+    }
+    .tab_right{
+        width:1000px;
+        height:500px;
+        float:left;
+        margin-left:4px;
+  
+        
+        .tab_top{
+            width:100%;
+            height:30px;
+    
+            span{
+                display:block;
+                font:12px/30px "";
+                color:#000;
+                font-weight:900;
+                margin-left:4px;
+            }
+        }
+        .tab{
+            width:1000px;
+           .top{
+               width:100%;
+               height:40px;
+               border:1px solid #747474;
+               h3{
+                    width:100px;
+                    height:40px;
+                    font:14px/40px "";
+                    color:#000;
+                    text-align:center;
+                    display:inline-block; 
+                    background:#ccc;
+               }
+               span{
+                   width:100px;
+                   height:40px;
+                   font:14px/40px "";
+                   color:#000;
+                   text-align:center;
+                   display:inline-block;   
+               }
+               span:hover{
+                    color:red;
+               }  
+           } 
+        }
+
+        .tab_title{
+            width:1000px;
+            height:50px;
+            background: #ddddff;
+            margin-top:10px;
+            span{
+                display:inline-block;
+                font:14px/50px "";
+                color:#000;
+                font-weight:800;
+                width:60px;
+                height:32px;
+                text-align:center;
+            }
+            input{
+                width:40px;
+                height:22px;
+            }
+            .btn{
+                width:40px;
+                height:30px;
+                color:#fff;
+                background:red;
+                border:none;
+                font:12px/30px "";
+                line-height:30px;
+                text-align: center;
+                margin-left:4px;
+            }
+        }
+        .tab_list{
+            width:1100px;
+         
+            .list_msg{
+                width:190px;
+                height:300px;
+                border:3px solid #000;
+                text-align:center;
+                display:inline-block;
+                img{
+                    width:180px;
+                    height:180px;
+
+                }
+                .list_img{
+                    width:200px;
+                    height:50px;
+                    text-align: center;
+                    img{
+                        display:inline-block;
+                        width: 30px;
+                        height:30px;
+                        margin-top:10px;
+                        border:1px solid #000;
+                    }
+                }
+                p{
+                    width:200px;
+                    height:30px;
+                    text-align: center;
+                    color:#000;
+                    font:13px/30px "";
+                    line-height: 30px;
+                    font-weight:900;
+                    margin-top:10px;
+                }
+                span{
+                    width:200px;
+                    height:30px;
+                    text-align: center;
+                    color:#000;
+                    font:16px/30px "";
+                    line-height: 30px;
+                    font-weight:900;
+                    color:red;
+                }
+            }
+            list_msg:hover{
+                background:#ccc;
+            }
+
+        }
+    }
+
+}
